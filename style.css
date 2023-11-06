@@ -1,12 +1,30 @@
-* {
-    margin: 0px;
-    flex-direction: column;
+body {
+    margin: 0;
 }
 
-.header {
-    display: flex;
-    background-color: #1F2937;
+.site-header {
+   background-color: #1F2937;
+} 
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
 }
+
+.logo {
+   color: #F9FAF8;
+   font-size: 24px;
+}
+
+.nav a {
+   text-decoration: none;
+   color: #E5E7EB;
+   font-size: 18px; 
+   padding: 16px;
+}
+
 
 .hero {
     display: flex;
@@ -18,6 +36,7 @@
 }
 
 .quotebox {
+    background-color: #E5E7EB;
     display: flex;
 }
 
