@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: "roboto", sans-serif
 }
 
 /* HEADER */
@@ -50,25 +51,16 @@ body {
 }
 
 .hero-img {
-   width: 500px;
-   height: 200px;
    margin-top: 100px;
    margin-bottom: 100px;
-   background-color: grey;
-    position: relative;
 }
 
-.img-text {
- width: 100px;
-    height: 100px;
-    position: absolute;   /* position relative to outer box */
-    top: 50%;   
-    left: 50%;
-    transform: translate(-50%, -50%);
+.hero-placeholder {
+   width: 500px;
+   height: 250px;
 }
 
 .hero-left {
-   text-wrap: wrap;
    margin-left: 35px;
    width: 400px;
    height: 200px;
@@ -101,7 +93,7 @@ body {
   margin-bottom: 100px;
 }
 
-img {
+.info-container img {
   width: 150px;
   height: 150px;
   border: 3px solid blue;
@@ -122,6 +114,7 @@ img {
   font-size: 16px;
   font: #389dff;
 }
+
 
 /* QUOTE BOX */
 
@@ -193,13 +186,15 @@ img {
    margin-left: 35px;
 }
 
+
 /* FOOTER */
 
 .footer {
   height: 72px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center; 
   color: #F9FAF8;
   background-color: #1F2937;
